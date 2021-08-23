@@ -1,0 +1,10 @@
+<div style="text-align:center"  aria-current="true"><h4>Brands </h4></div>
+<ul  class="list-group">
+    <!-- <li class="list-group-item " ><h4>Markalar</h4></li> -->
+    <li (click)="setCurrentBrand(brand)"routerLink="/cars/brand/{{brand.brandId}}" 
+    *ngFor="let brand of brands" 
+    [class]="getCurrentBrandClass(brand)">{{brand.brandName}}</li>
+   
+    
+  </ul>
+

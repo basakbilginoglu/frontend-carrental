@@ -1,0 +1,8 @@
+<div style="text-align:center"  aria-current="true"><h4>Colors</h4></div>
+<ul  class="list-group">
+    <!-- <li class="list-group-item " ><h4>Markalar</h4></li> -->
+    <li (click)="setCurrentColor(color)"routerLink="/cars/color/{{color.colorId}}"
+     class="list-group-item"  *ngFor="let color of colors" [class]="getCurrentColorClass(color)">{{color.colorName}}
+  </li>
+ 
+  </ul>
