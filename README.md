@@ -1,4 +1,4 @@
-Backendi .Net ile yazılmış olan araba kiralama sitesinin frontend tarafı angular ile yazıldı.
+Backend kısmı .Net ile yazılmış olan araba kiralama sitesinin frontend tarafı angular ile yazıldı.
 
 # Carrental
 
