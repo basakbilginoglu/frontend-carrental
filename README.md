@@ -1,3 +1,5 @@
+Backendi .Net ile yazılmış olan araba kiralama sitesinin frontend tarafı angular ile yazıldı.
+
 # Carrental
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
